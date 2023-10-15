@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-size: 1.02rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border-bottom: 4px rgb(208, 24, 24) solid;
+    padding: 1px 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+.nav_flex {
+    justify-content: space-between;
+}
+
+/* LISTA */
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1px;
+}
+
+.navbar ul a:hover {
+    border-bottom: 3px rgb(208, 24, 24) solid;
+}
+
+.navbar li {
+    padding: 10px;
+    color: black;
+
+}
+
+.list_border {
+    border-right: 0.1px solid;
+}
+
+/* KNAPPAR & ANIMATIONER */
+
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.05rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.prenumerera {
+    background-color: rgb(208, 24, 24);
+    color: white;
+    border: none;
+}
+
+.prenumerera:hover {
+    color: white;
+    animation-name: color_change1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.logga_in {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.logga_in:hover {
+    color: black;
+    animation-name: color_change2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes color_change1 {
+    0% {
+        background-color: rgb(208, 24, 24);
+    }
+
+    100% {
+        background-color: rgb(86, 8, 8);
+    }
+}
+
+@keyframes color_change2 {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: gray;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Nyheter</title>
+</head>
+
+<body>
+
+    <!-- HEADER MED NAVBAR -->
+
+    <div class="page_wrapper">
+        <div class="nav_flex">
+            <nav class="navbar">
+                <h1 class="logo"><a href="index.html">NYHETER</a></h1>
+                <ul>
+                    <li class="list_border"><a href="nyheter.html">Nyheter</a></li>
+                    <li class="list_border"><a href="sverige.html">Sverige</a></li>
+                    <li class="list_border"><a href="varlden.html">Världen</a></li>
+                    <li class="list_border"><a href="ekonomi.html">Ekonomi</a></li>
+                    <li class="list_border"><a href="kultur.html">Kultur</a></li>
+                    <li class="list_border"><a href="sport.html">Sport</a></li>
+                    <li class="list_border"><a href="klimatet.html">Klimatet</a></li>
+                    <li class="list_border"><a href="ledare.html">Ledare</a></li>
+                    <li><a href="debatt.html">Debatt</a></li>
+                </ul>
+                <ul>
+                    <li><a href="prenumerera.html"><button class="button prenumerera">Prenumerera</button></a></li>
+                    <li><a href="logga_in.html"><button class="button logga_in">Logga in</button></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <main>
+
+            <!-- SIDEBAR -->
+
+            <section class="main_content">
+                <div id="sidebar">
+                    <h2 class="sidebar_title">Snabbkollen</h2>
+                    <div class="scrollbox">
+                        <h2 class="sidebar-sub-title">Senaste nytt</h2>
+                        <li><a href="vargar.html">Två vargar skjutna i Skåne</a></li>
+                        <li><a href="industrilokal.html">Industrilokal har rasat i brand</a></li>
+                        <li><a href="spackhuggare.html">Död späckhuggare utanför Göteborg</a></li>
+                        <h2 class="sidebar-sub-title">Senaste avsnittet på NYHETER Play</h2>
+                        <li><video width="100%" height="auto" controls="controls">
+                                <source src="vid.mp4" type="video/mp4" />
+                            </video></li>
+                        <li><strong>Rapport</strong></li>
+                        <li>Igår 22:00</li>
+                        <h2 class="sidebar-sub-title">Senaste från Ukraina</h2>
+                        <li><a href="ukraina_karta.html"><img src="bilder/ukraina_karta.png" alt="Karta" width="100%"
+                                    height="auto"></a></li>
+                        <li><strong><a href="ukraina_karta.html">Här är områdena som Ukraina tagit tillbaka</a></strong>
+                        </li>
+                        <li>Se NYHETER:s interaktiva kartor</li>
+                    </div>
+                </div>
+            </section>
+
+            <!-- JUST NU-CONTAINER -->
+
+            <section class="nyheter_container_start">
+                <a href="just_nu.html">
+                    <h2>JUST NU: Buss och bilar i olycka</h2>
+                    <p>Två till sjukhus - krock i Nacka</p>
+                </a>
+            </section>
+
+            <!-- NYHETER -->
+
+            <section class="nyheter_container">
+                <div class="nyheter">
+                    <a href="brand.html">
+                        <figure>
+                            <img src="bilder/brand.jpg" alt="Brand">
+                        </figure>
+                    </a>
+                </div>
+                <a href="brand.html">
+                    <h2>Enorm brand rasar - lokal kollapsade</h2>
+                </a>
+                <p>Går inte att rädda - misstänkt attentat • Tidigare sprängdåd</p>
+            </section>
+
+            <section class="nyheter_container">
+                <div class="nyheter">
+                    <a href="microsoft.html">
+                        <figure>
+                            <img src="bilder/microsoft.jpeg" alt="Microsoft">
+                        </figure>
+                    </a>
+                </div>
+                <a href="microsoft.html">
+                    <h2>Microsofts jätteköp av spelföretaget Activision i mål</h2>
+                </a>
+                <p>Amerikanska it-jätten Microsofts köp av spelföretaget Activision Blizzard är nu officiellt</p>
+            </section>
+
+            <section class="nyheter_container">
+                <div class="nyheter">
+                    <a href="ukraina.html">
+                        <figure>
+                            <img src="bilder/ukraina.jpg" alt="Ukraina">
+                        </figure>
+                    </a>
+                </div>
+                <a href="ukraina.html">
+                    <h2>Ukrainska staden larmar: Attackerar med allt de har</h2>
+                </a>
+                <p>Intensiva strider i Avdijivka • För farligt att hämta döda</p>
+            </section>
+
+            <section class="nyheter_container">
+                <div class="nyheter">
+                    <a href="burgare.html">
+                        <figure>
+                            <img src="bilder/burgare.jpg" alt="Burgare">
+                        </figure>
+                    </a>
+                </div>
+                <a href="burgare.html">
+                    <h2>Akut kris för finhamburgarna - flera kedjor riskerar att slås ut</h2>
+                </a>
+                <p>4,5 miljarder när Minecraft såldes till Microsoft, köpte in sig med en tredjedel i hamburgerkedjan
+                </p>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <div class="kontaktuppgifter">
+                <h2>TIPSA OSS</h2>
+                <ul>
+                    <li>
+                        <p>SMS/MMS: </p><a href="tipsnummer.html">0701 - 123123</a>
+                    </li>
+                    <li>
+                        <p>Mejla: </p><a href="tipsmail.html">tips@nyheter.se</a>
+                    </li>
+                    <li><a href="tipsalternativ.html">Fler tipsalternativ</a></li>
+                </ul>
+            </div>
+            <div class="kontaktuppgifter">
+                <h2>KONTAKTA OSS</h2>
+                <ul>
+                    <li>
+                        <p>Chefredaktör:</p><a href="gustav.html">Gustav Mossberg</a>
+                    </li>
+                    <li>
+                        <p>Biträdande chefredaktör:</p><a href="gustav.html">Gustav Mossberg</a>
+                    </li>
+                    <li>
+                        <p>Kulturchef:</p><a href="gustav.html">Gustav Mossberg</a>
+                    </li>
+                    <li>
+                        <p>Politisk redaktör:</p><a href="gustav.html">Gustav Mossberg</a>
+                    </li>
+                    <li>
+                        <p>Verkställande redaktör:</p><a href="gustav.html">Gustav Mossberg</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nyhetsbrev">
+                <div class="form_control">
+                    <h2>NYHETSBREV</h2>
+                    <form>
+                        <input type="text" name="Namn" placeholder="För- och efternamn" required>
+                        <input type="email" name="email" placeholder="Exempel@email.com" required>
+                        <input type="text" name="postadress" placeholder="Postadress" required>
+                        <input type="submit" name="skicka" required>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
